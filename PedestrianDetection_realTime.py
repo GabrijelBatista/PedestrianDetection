@@ -13,7 +13,7 @@ HOGCV.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
 # Create VideoCapture object
 
-cap = cv2.VideoCapture("video.mp4")
+cap = cv2.VideoCapture("pedestrians_video.mp4")
 
 def Detector(frame):
     width = frame.shape[1]
